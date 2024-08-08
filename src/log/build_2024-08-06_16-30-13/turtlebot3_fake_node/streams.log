@@ -1,0 +1,75 @@
+[0.441s] Invoking command in '/home/tparu001k/turtlebot3_ws/src/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs:/home/tparu001k/turtlebot3_ws/install/turtlebot3:/home/tparu001k/turtlebot3_ws/install/turtlebot3_bringup:/home/tparu001k/turtlebot3_ws/install/turtlebot3_node:/home/tparu001k/turtlebot3_ws/install/turtlebot3_navigation2:/home/tparu001k/turtlebot3_ws/install/turtlebot3_msgs:/home/tparu001k/turtlebot3_ws/install/turtlebot3_description:/home/tparu001k/turtlebot3_ws/install/turtlebot3_cartographer:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk:/home/tparu001k/turtlebot3_ws/install/turtlebot3_teleop:/home/tparu001k/turtlebot3_ws/install/turtlebot3_example:/home/tparu001k/metr4202_ws/install/m4202_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tparu001k/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node
+[0.579s] -- The C compiler identification is GNU 11.4.0
+[1.166s] -- The CXX compiler identification is GNU 11.4.0
+[1.534s] -- Detecting C compiler ABI info
+[1.685s] -- Detecting C compiler ABI info - done
+[1.698s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.699s] -- Detecting C compile features
+[1.699s] -- Detecting C compile features - done
+[1.703s] -- Detecting CXX compiler ABI info
+[1.859s] -- Detecting CXX compiler ABI info - done
+[1.868s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.869s] -- Detecting CXX compile features
+[1.869s] -- Detecting CXX compile features - done
+[1.872s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.125s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.208s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.250s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.389s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.397s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.410s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.629s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.778s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.880s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.885s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.348s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.930s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.526s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.541s] -- Looking for pthread.h
+[8.692s] -- Looking for pthread.h - found
+[8.692s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.872s] -- Found Threads: TRUE  
+[9.078s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.224s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[9.245s] -- Found tf2_msgs: 0.25.7 (/opt/ros/humble/share/tf2_msgs/cmake)
+[9.470s] -- Found turtlebot3_msgs: 2.2.3 (/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[9.689s] -- Configuring done
+[9.704s] -- Generating done
+[9.707s] -- Build files have been written to: /home/tparu001k/turtlebot3_ws/src/build/turtlebot3_fake_node
+[9.722s] Invoked command in '/home/tparu001k/turtlebot3_ws/src/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs:/home/tparu001k/turtlebot3_ws/install/turtlebot3:/home/tparu001k/turtlebot3_ws/install/turtlebot3_bringup:/home/tparu001k/turtlebot3_ws/install/turtlebot3_node:/home/tparu001k/turtlebot3_ws/install/turtlebot3_navigation2:/home/tparu001k/turtlebot3_ws/install/turtlebot3_msgs:/home/tparu001k/turtlebot3_ws/install/turtlebot3_description:/home/tparu001k/turtlebot3_ws/install/turtlebot3_cartographer:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk:/home/tparu001k/turtlebot3_ws/install/turtlebot3_teleop:/home/tparu001k/turtlebot3_ws/install/turtlebot3_example:/home/tparu001k/metr4202_ws/install/m4202_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tparu001k/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node
+[9.724s] Invoking command in '/home/tparu001k/turtlebot3_ws/src/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs:/home/tparu001k/turtlebot3_ws/install/turtlebot3:/home/tparu001k/turtlebot3_ws/install/turtlebot3_bringup:/home/tparu001k/turtlebot3_ws/install/turtlebot3_node:/home/tparu001k/turtlebot3_ws/install/turtlebot3_navigation2:/home/tparu001k/turtlebot3_ws/install/turtlebot3_msgs:/home/tparu001k/turtlebot3_ws/install/turtlebot3_description:/home/tparu001k/turtlebot3_ws/install/turtlebot3_cartographer:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk:/home/tparu001k/turtlebot3_ws/install/turtlebot3_teleop:/home/tparu001k/turtlebot3_ws/install/turtlebot3_example:/home/tparu001k/metr4202_ws/install/m4202_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tparu001k/turtlebot3_ws/src/build/turtlebot3_fake_node -- -j8 -l8
+[9.782s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[36.618s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[38.203s] [100%] Built target turtlebot3_fake_node
+[38.238s] Invoked command in '/home/tparu001k/turtlebot3_ws/src/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs:/home/tparu001k/turtlebot3_ws/install/turtlebot3:/home/tparu001k/turtlebot3_ws/install/turtlebot3_bringup:/home/tparu001k/turtlebot3_ws/install/turtlebot3_node:/home/tparu001k/turtlebot3_ws/install/turtlebot3_navigation2:/home/tparu001k/turtlebot3_ws/install/turtlebot3_msgs:/home/tparu001k/turtlebot3_ws/install/turtlebot3_description:/home/tparu001k/turtlebot3_ws/install/turtlebot3_cartographer:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk:/home/tparu001k/turtlebot3_ws/install/turtlebot3_teleop:/home/tparu001k/turtlebot3_ws/install/turtlebot3_example:/home/tparu001k/metr4202_ws/install/m4202_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tparu001k/turtlebot3_ws/src/build/turtlebot3_fake_node -- -j8 -l8
+[38.301s] Invoking command in '/home/tparu001k/turtlebot3_ws/src/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs:/home/tparu001k/turtlebot3_ws/install/turtlebot3:/home/tparu001k/turtlebot3_ws/install/turtlebot3_bringup:/home/tparu001k/turtlebot3_ws/install/turtlebot3_node:/home/tparu001k/turtlebot3_ws/install/turtlebot3_navigation2:/home/tparu001k/turtlebot3_ws/install/turtlebot3_msgs:/home/tparu001k/turtlebot3_ws/install/turtlebot3_description:/home/tparu001k/turtlebot3_ws/install/turtlebot3_cartographer:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk:/home/tparu001k/turtlebot3_ws/install/turtlebot3_teleop:/home/tparu001k/turtlebot3_ws/install/turtlebot3_example:/home/tparu001k/metr4202_ws/install/m4202_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tparu001k/turtlebot3_ws/src/build/turtlebot3_fake_node
+[38.318s] -- Install configuration: ""
+[38.319s] -- Execute custom install script
+[38.320s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[38.341s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[38.359s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[38.379s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[38.401s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[38.421s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[38.443s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[38.468s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[38.498s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[38.518s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[38.538s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[38.558s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[38.577s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[38.598s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[38.619s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[38.638s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[38.658s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[38.683s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[38.712s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[38.730s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.748s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.767s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[38.790s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[38.808s] -- Symlinking: /home/tparu001k/turtlebot3_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[38.834s] Invoked command in '/home/tparu001k/turtlebot3_ws/src/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs:/home/tparu001k/turtlebot3_ws/install/turtlebot3:/home/tparu001k/turtlebot3_ws/install/turtlebot3_bringup:/home/tparu001k/turtlebot3_ws/install/turtlebot3_node:/home/tparu001k/turtlebot3_ws/install/turtlebot3_navigation2:/home/tparu001k/turtlebot3_ws/install/turtlebot3_msgs:/home/tparu001k/turtlebot3_ws/install/turtlebot3_description:/home/tparu001k/turtlebot3_ws/install/turtlebot3_cartographer:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tparu001k/turtlebot3_ws/install/dynamixel_sdk:/home/tparu001k/turtlebot3_ws/install/turtlebot3_teleop:/home/tparu001k/turtlebot3_ws/install/turtlebot3_example:/home/tparu001k/metr4202_ws/install/m4202_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tparu001k/turtlebot3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tparu001k/turtlebot3_ws/src/build/turtlebot3_fake_node
